@@ -1,4 +1,11 @@
+html {
+	height: 100%;
+	background: linear-gradient(to bottom right, #4B7FC3, #5454B0);
+}
+
 body {
+	font-family: Avenir, sans-serif;
+
 	margin: 48px;
 }
 
