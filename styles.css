@@ -1,0 +1,24 @@
+header {
+	margin: 24px;
+}
+
+header nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li {
+	margin-right: 24px;
+}
+
+header nav div button {
+	margin-left: 16px;
+}
