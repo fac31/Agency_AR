@@ -4,8 +4,8 @@ html {
 }
 
 body {
-	font-family: Avenir, sans-serif;
-
+	font-family: Lato, sans-serif;
+	color: #ffffff;
 	margin: 48px;
 }
 
@@ -17,7 +17,8 @@ header nav {
 
 nav ul {
 	display: flex;
-	list-style-type: none;
+	list-style: none;
+	justify-content: center;
 	padding: 0;
 	margin: 0;
 }
@@ -26,7 +27,63 @@ nav ul li {
 	margin-right: 24px;
 }
 
-header nav div button {
-	margin-left: 16px;
+nav a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
 }
 
+header nav div button {
+	margin-left: 8px;
+}
+
+.nav-container {
+	display: flex;
+	justify-content: speace-between;
+	align-items: center;
+}
+
+.nav-links {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+}
+
+.nav-links ul {
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	margin: 0 auto;
+	list-style-type: none;
+}
+
+.nav-links l:not(:last-child) {
+	margin-right: 24px;
+}
+
+button {
+	border: none;
+	padding: 12px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+header button:nth-of-type(1) {
+	background: transparent;
+	color: white;
+}
+
+header button:nth-of-type(2) {
+	background: white;
+	color: #1E3781;
+}
+
+main > section > * + * {
+	margin-top: 24px;
+}
+
+main > section > button {
+	background-color: #75FBB9;
+	color: #1E3781;
+}
