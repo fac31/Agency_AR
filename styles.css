@@ -1,5 +1,5 @@
-header {
-	margin: 24px;
+body {
+	margin: 48px;
 }
 
 header nav {
@@ -22,3 +22,4 @@ nav ul li {
 header nav div button {
 	margin-left: 16px;
 }
+
