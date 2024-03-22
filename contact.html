@@ -12,7 +12,7 @@
   </head>
   <body>
     <main>
-      <section>
+      <section class="contact">
         <h1>Got questions?</h1>
 
         <p>
@@ -21,42 +21,46 @@
         </p>
 
         <form>
-          <input type="radio" id="mr" value="mr" />
-          <label for="mr">Mr.</label>
+          <div class="radio-group">
+            <input type="radio" id="mr" value="mr" />
+            <label for="mr">Mr.</label>
 
-          <label for="mrs">Mrs.</label>
-          <input type="radio" id="mrs" value="mrs" />
+            <label for="mrs">Mrs.</label>
+            <input type="radio" id="mrs" value="mrs" />
 
-          <label for="other">Other</label>
-          <input type="radio" id="other" value="other" />
+            <label for="other">Other</label>
+            <input type="radio" id="other" value="other" />
+          </div>
 
-          <label for="first-name">First Name</label>
-          <input type="text" />
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" />
 
-          <label for="first-name">First Name</label>
-          <input type="text" />
+            <label for="first-name">First Name</label>
+            <input type="text" />
 
-          <label for="last-name">Last Name</label>
-          <input type="text" />
+            <label for="last-name">Last Name</label>
+            <input type="text" />
 
-          <label for="company">Company</label>
-          <input type="text" />
+            <label for="company">Company</label>
+            <input type="text" />
 
-          <label for="email">Email address</label>
-          <input type="text" />
+            <label for="email">Email address</label>
+            <input type="text" />
 
-          <label for="phone-number">Phone number</label>
-          <input type="text" />
+            <label for="phone-number">Phone number</label>
+            <input type="text" />
 
-          <label for="question">Your question</label>
-          <textarea></textarea>
+            <label for="question">Your question</label>
+            <textarea></textarea>
 
-          <input type="checkbox" />
-          <label
-            >Cat cat moo moo lick ears lick paws. Sleeping in the box eat a
-            plant, kill a hand i hate cucumber pls dont throw it at me always
-            ensure to lay down</label
-          >
+            <input type="checkbox" />
+            <label
+              >Cat cat moo moo lick ears lick paws. Sleeping in the box eat a
+              plant, kill a hand i hate cucumber pls dont throw it at me always
+              ensure to lay down</label
+            >
+          </div>
         </form>
 
         <button>

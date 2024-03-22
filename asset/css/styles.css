@@ -118,3 +118,11 @@ p {
 	font-size: 16px;
 }
 
+.contact {
+	color: black;
+}
+
+.contact .form-group {
+	display: flex;
+	flex-direction: column;
+}
