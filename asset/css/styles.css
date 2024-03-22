@@ -113,6 +113,10 @@ h1 {
 	font-size: 32px;
 }
 
+.contact-header {
+	line-height: 0;
+}
+
 p {
 	line-height: 1.6;
 	font-size: 16px;
@@ -120,6 +124,12 @@ p {
 
 .contact {
 	color: black;
+	background-color: white;
+	border-radius: 8px;
+	padding: 36px;
+	max-width: 400px;
+	margin: 0 auto; /* change this ot be off center */
+
 }
 
 .contact .form-group {
