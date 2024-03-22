@@ -12,7 +12,15 @@ body {
 	margin: 48px;
 }
 
-.background {
+.background-main {
+	background: linear-gradient(to bottom right, #4B7FC3, #5454B0);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 100vh;
+}
+
+.background-content {
 	background-image: url("../images/62f23111295fa1f0b4e628a2_slide.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
