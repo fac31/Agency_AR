@@ -199,18 +199,19 @@ form * + * {
 }
 
 .team-member {
-  background-color: #ffffff;
+  background-color: black;
   border-radius: 8px;
   padding: 16px;
   margin: 16px;
   text-align: left;
   max-width: 200px;
-	color: black;
+	color: white;
 }
 
 .team-member img {
-  width: 100%;
-  height: auto;
+  width: 200px;
+  height: 250px;
+	object-fit: contain;
   border-radius: 4px;
   margin-bottom: 16px;
 }
