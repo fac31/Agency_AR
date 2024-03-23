@@ -24,7 +24,7 @@ main{
 }
 
 .background-content {
-	background-image: url("../images/DALL·E 2024-03-23 15.04 1.png");
+	background-image: url("../images/team.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -262,6 +262,13 @@ form * + * {
 	color: black;
 }
 
+.image-card-gallery {
+	border-radius: 8px;
+  width: 400px;
+  height: 400px;
+	padding: 24px;
+	object-fit: contain;
+}
 
 footer {
 	background-color:rgb(26, 26, 26);
