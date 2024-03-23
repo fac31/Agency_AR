@@ -12,8 +12,16 @@ body {
 	height: 100vh;
 }
 
+.background-find {
+	background: rgb(26, 26, 26);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 100vh;
+}
+
 .background-content {
-	background-image: url("../images/DALL·E 2024-03-23 14.55.27 - Create an image of a diverse group of illustrated characters, who are vampire hunters, posing together for a team photo. Each character should be equi.webp");
+	background-image: url("../images/DALL·E 2024-03-23 15.04 1.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -199,13 +207,13 @@ form * + * {
 }
 
 .team-member {
-  background-color: black;
+  background-color: white;
   border-radius: 8px;
   padding: 16px;
   margin: 16px;
   text-align: left;
   max-width: 200px;
-	color: white;
+	color: black;
 }
 
 .team-member img {
