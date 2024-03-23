@@ -192,10 +192,25 @@ form * + * {
 	margin-top: 16px;
 }
 
+.gallery {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap
+}
+
 .team-member {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  text-align: left;
+  max-width: 200px;
 	color: black;
-	background-color: white;
-	border-radius: 8px;
-	padding: 8px 36px;
-	max-width: 200px;
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 16px;
 }
