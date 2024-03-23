@@ -119,11 +119,25 @@ p {
 }
 /* abouts us section styles */
 #about {
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content: space-between;
-	align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
 }
-img{
-	width: 400px;
+.img-container {
+  display: flex;
+  margin-right: 40px;
+}
+img {
+  width: 400px;
+  margin-inline: auto;
+  margin-right: 46px;
+}
+.text-container button {
+  margin-top: 20px;
+}
+#about button {
+  background-color: #75fbb9;
+  color: #1e3781;
 }
