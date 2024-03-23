@@ -130,9 +130,12 @@ p {
   margin-right: 40px;
 }
 img {
-  width: 400px;
-  margin-inline: auto;
-  margin-right: 46px;
+  /* width: 400px;
+  margin-inline: auto;*/
+  margin-right: 46px; 
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 .text-container button {
   margin-top: 20px;
