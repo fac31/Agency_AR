@@ -191,3 +191,11 @@ textarea {
 form * + * {
 	margin-top: 16px;
 }
+
+.team-member {
+	color: black;
+	background-color: white;
+	border-radius: 8px;
+	padding: 8px 36px;
+	max-width: 200px;
+}
