@@ -32,57 +32,58 @@ main{
 }
 
 header nav {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
 }
 
 nav ul {
-	display: flex;
-	list-style: none;
-	justify-content: center;
-	padding: 0;
-	margin: 0;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 nav ul li {
-	margin-right: 24px;
+  margin-right: 24px;
 }
 
 nav a {
-	text-decoration: none;
-	color: white;
-	font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 
 header nav div button {
+
 	margin-left: 8px;
 	display: inline;
 }
 
 .nav-container {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-links {
-	flex: 1;
-	display: flex;
-	justify-content: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-links ul {
-	display: flex;
-	justify-content: center;
-	padding: 0;
-	margin: 0 auto;
-	list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0 auto;
+  list-style-type: none;
 }
 
 .nav-links l:not(:last-child) {
-	margin-right: 24px;
+  margin-right: 24px;
 }
 
 .material-icons {
@@ -91,16 +92,16 @@ header nav div button {
 }
 
 button {
-	border: none;
-	padding: 12px 20px;
-	border-radius: 5px;
-	cursor: pointer;
-	font-weight: bold;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 16px;
-	line-height: 1;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 1;
 }
 
 .nav-buttons {
@@ -113,14 +114,14 @@ button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-	font-size: 24px;
+  font-size: 24px;
   margin-right: 8px;
   vertical-align: middle;
 }
 
 header button:nth-of-type(1) {
-	background: transparent;
-	color: white;
+  background: transparent;
+  color: white;
 }
 
 header button:nth-of-type(2) {
@@ -129,7 +130,7 @@ header button:nth-of-type(2) {
 }
 
 main > section > * + * {
-	margin-top: 24px;
+  margin-top: 24px;
 }
 
 main > section > button {
@@ -138,8 +139,8 @@ main > section > button {
 }
 
 h1 {
-	line-height: 1.4;
-	font-size: 32px;
+  line-height: 1.4;
+  font-size: 32px;
 }
 
 .contact-header {
@@ -147,9 +148,37 @@ h1 {
 }
 
 p {
-	line-height: 1.6;
-	font-size: 16px;
+  line-height: 1.6;
+  font-size: 16px;
 }
+/* abouts us section styles */
+#about {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.img-container {
+  display: flex;
+  margin-right: 40px;
+}
+img {
+  /* width: 400px;
+  margin-inline: auto;*/
+  margin-right: 46px; 
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.text-container button {
+  margin-top: 20px;
+}
+#about button {
+  background-color: #75fbb9;
+  color: #1e3781;
+}
+
 
 .body-secondary {
 	color: rgb(96, 96, 96);
