@@ -223,3 +223,13 @@ form * + * {
   border-radius: 4px;
   margin-bottom: 16px;
 }
+
+footer {
+  height: 60px;
+  width: 100%;
+	padding-top: 24px;
+	padding-bottom: 24px;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+}
