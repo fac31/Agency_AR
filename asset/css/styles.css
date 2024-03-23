@@ -1,8 +1,18 @@
+html {
+	height: 100%;
+}
 
 body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100hv;
 	font-family: Lato, sans-serif;
 	color: #ffffff;
 	margin: 48px;
+}
+
+main{
+	flex: 1;
 }
 
 .background-main {
@@ -115,7 +125,7 @@ header button:nth-of-type(1) {
 
 header button:nth-of-type(2) {
 	background: white;
-	color: #1E3781;
+	color: black;
 }
 
 main > section > * + * {
@@ -124,7 +134,7 @@ main > section > * + * {
 
 main > section > button {
 	background-color: #75FBB9;
-	color: #1E3781;
+	color: black;
 }
 
 h1 {
@@ -218,6 +228,10 @@ form * + * {
 }
 
 footer {
+	background-color:rgb(26, 26, 26);
+	position: 0;
+	left: 0;
+	bottom: 0;
   height: 100px;
   width: 100%;
 	padding: 24px;
