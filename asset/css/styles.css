@@ -1,11 +1,22 @@
+html {
+	height: 100%;
+}
+
 body {
-  font-family: Lato, sans-serif;
-  color: #ffffff;
-  margin: 48px;
+	display: flex;
+	flex-direction: column;
+	min-height: 100hv;
+	font-family: Lato, sans-serif;
+	color: #ffffff;
+	margin: 48px;
+}
+
+main{
+	flex: 1;
 }
 
 .background-main {
-	background: linear-gradient(to bottom right, #4B7FC3, #5454B0);
+	background: rgb(26, 26, 26);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -13,7 +24,7 @@ body {
 }
 
 .background-content {
-	background-image: url("../images/62f23111295fa1f0b4e628a2_slide.jpg");
+	background-image: url("../images/DALL·E 2024-03-23 15.04 1.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -114,8 +125,8 @@ header button:nth-of-type(1) {
 }
 
 header button:nth-of-type(2) {
-  background: white;
-  color: #1e3781;
+	background: white;
+	color: black;
 }
 
 main > section > * + * {
@@ -123,8 +134,8 @@ main > section > * + * {
 }
 
 main > section > button {
-  background-color: #75fbb9;
-  color: #1e3781;
+	background-color: #75FBB9;
+	color: black;
 }
 
 h1 {
@@ -219,4 +230,54 @@ textarea {
 
 form * + * {
 	margin-top: 16px;
+}
+
+.gallery {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap
+}
+
+.team-member {
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  text-align: left;
+  max-width: 200px;
+	color: black;
+}
+
+.team-member img {
+  width: 200px;
+  height: 250px;
+	object-fit: contain;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+footer {
+	background-color:rgb(26, 26, 26);
+	position: 0;
+	left: 0;
+	bottom: 0;
+  height: 100px;
+  width: 100vw;
+	position: relative;
+	left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+	padding: 24px;
+  color: white;
+  text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;;
+}
+
+a:hover, a:active, a:focus {
+	text-decoration: underline;
+	color: inherit;
 }
