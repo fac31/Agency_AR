@@ -80,6 +80,12 @@ button {
 	line-height: 1;
 }
 
+.nav-buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .material-symbols-rounded {
   display: inline-flex;
   align-items: center;
