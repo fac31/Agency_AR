@@ -1,3 +1,4 @@
+
 body {
 	font-family: Lato, sans-serif;
 	color: #ffffff;
@@ -5,14 +6,6 @@ body {
 }
 
 .background-main {
-	background: linear-gradient(to bottom right, #4B7FC3, #5454B0);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-	height: 100vh;
-}
-
-.background-find {
 	background: rgb(26, 26, 26);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -225,11 +218,19 @@ form * + * {
 }
 
 footer {
-  height: 60px;
+  height: 100px;
   width: 100%;
-	padding-top: 24px;
-	padding-bottom: 24px;
+	padding: 24px;
   color: white;
   text-align: center;
-  line-height: 60px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;;
+}
+
+a:hover, a:active, a:focus {
+	text-decoration: underline;
+	color: inherit;
 }
