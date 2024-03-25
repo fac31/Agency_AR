@@ -1,6 +1,6 @@
 .card-horizontal {
 	display: flex;
-	background-color: white;
+	background-color: var(--secondary-color);
 	border-radius: 8px;
   padding: 16px;
   text-align: left;
@@ -15,7 +15,7 @@
 }
 
 .card-small {
-  background-color: white;
+  background-color: var(--secondary-color);
   border-radius: 8px;
   padding: 16px;
   margin: 16px;
