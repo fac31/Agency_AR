@@ -1,4 +1,5 @@
 @import url("../css/inputs.css");
+@import url("../css/cards.css");
 
 html {
 	height: 100%;
@@ -149,56 +150,6 @@ img {
 	padding: 36px;
 	max-width: 400px;
 	margin-left: 20%;
-}
-
-
-.card-horizontal {
-	display: flex;
-	background-color: white;
-	border-radius: 8px;
-  padding: 16px;
-  text-align: left;
-	color: black;
-	max-width: 1000px;
-}
-
-.gallery {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap
-}
-
-.team-member {
-  background-color: white;
-  border-radius: 8px;
-  padding: 16px;
-  margin: 16px;
-  text-align: left;
-  max-width: 200px;
-	color: black;
-}
-
-.team-member img {
-  width: 200px;
-  height: 250px;
-	object-fit: contain;
-  border-radius: 4px;
-  margin-bottom: 16px;
-}
-
-.image-card {
-  border-radius: 8px;
-  text-align: center;
-	max-width: 400px;
-	color: black;
-}
-
-.image-card-gallery {
-	border-radius: 8px;
-  width: 400px;
-  height: 400px;
-	padding: 24px;
-	object-fit: contain;
 }
 
 footer {
