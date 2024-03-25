@@ -24,7 +24,7 @@ main{
 }
 
 .background-content {
-	background-image: url("../images/DALL·E 2024-03-23 15.04 1.png");
+	background-image: url("../images/team.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -57,7 +57,6 @@ nav a {
 }
 
 header nav div button {
-
 	margin-left: 8px;
 	display: inline;
 }
@@ -150,6 +149,7 @@ h1 {
 p {
   line-height: 1.6;
   font-size: 16px;
+
 }
 /* abouts us section styles */
 #about {
@@ -178,7 +178,6 @@ img {
   background-color: #75fbb9;
   color: #1e3781;
 }
-
 
 .body-secondary {
 	color: rgb(96, 96, 96);
@@ -232,6 +231,27 @@ form * + * {
 	margin-top: 16px;
 }
 
+.long-form-content {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 48px;
+	margin-bottom: 48px;
+	display:flex;
+	flex-direction: column;
+	align-items:left;
+}
+
+.card-horizontal {
+	display: flex;
+	background-color: white;
+	border-radius: 8px;
+  padding: 16px;
+  text-align: left;
+	color: black;
+	max-width: 1000px;
+}
+
 .gallery {
 	display: flex;
 	justify-content: center;
@@ -254,6 +274,21 @@ form * + * {
 	object-fit: contain;
   border-radius: 4px;
   margin-bottom: 16px;
+}
+
+.image-card {
+  border-radius: 8px;
+  text-align: center;
+	max-width: 400px;
+	color: black;
+}
+
+.image-card-gallery {
+	border-radius: 8px;
+  width: 400px;
+  height: 400px;
+	padding: 24px;
+	object-fit: contain;
 }
 
 footer {
