@@ -6,7 +6,7 @@
   --secondary-color:white;
   --text-color-white:white;
   --accent-color:rgba(117, 251, 185, 1);
-  --body-text-black:rgb(26, 26, 26);
+  --body-text-primary:rgb(26, 26, 26);
 	--body-text-scondary: rgb(96, 96, 96);
   --form-input-border-color: black;
 }
@@ -64,7 +64,7 @@ nav ul li {
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: var(--text-color-white);
   font-weight: bold;
 }
 
@@ -102,7 +102,7 @@ main > section > * + * {
 }
 
 main > section > button {
-	background-color: #75FBB9;
+	background-color: var(--accent-color);
 	color: black;
 }
 
@@ -144,17 +144,17 @@ img {
   margin-top: 20px;
 }
 #about button {
-  background-color: #75fbb9;
-  color: #1e3781;
+  background-color: var(--accent-color);
+  color: var(--body-text-black); 
 }
 
 .body-secondary {
-	color: rgb(96, 96, 96);
+	color: var(--body-text-scondary);
 }
 
 .contact {
-	color: black;
-	background-color: white;
+	color: var(--body-text-primary);
+	background-color: var(--secondary-color);
 	border-radius: 8px;
 	padding: 36px;
 	max-width: 400px;
@@ -162,7 +162,7 @@ img {
 }
 
 footer {
-	background-color:rgb(26, 26, 26);
+	background-color: var(--primary-color);
 	position: 0;
 	left: 0;
 	bottom: 0;
@@ -173,7 +173,7 @@ footer {
   right: 50%;
   transform: translateX(-50%);
 	padding: 24px;
-  color: white;
+  color: var(--text-color-white);
   text-align: center;
 }
 
