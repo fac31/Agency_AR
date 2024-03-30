@@ -42,13 +42,13 @@ button {
 	color: var(--primary-color);
 }
 
-main > section > button {
+.contatined-button-accent {
 	background-color: var(--accent-color);
 	color: var(--primary-color);
 }
 
 /* these are form about us */
-/*I do not know why it is not picking up the text colour*/
+/* I do not know why it is not picking up the text colour*/
 .text-container button {
   margin-top: 20px;
 }
