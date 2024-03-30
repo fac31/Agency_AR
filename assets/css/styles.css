@@ -4,11 +4,8 @@
 :root {
   --primary-color: rgb(26, 26, 26);
   --secondary-color:rgb(255, 255, 255);
-  --text-color-white:rgb(255, 255, 255);
   --accent-color:rgba(117, 251, 185, 1);
-  --body-text-primary:rgb(26, 26, 26);
 	--body-text-scondary: rgb(96, 96, 96);
-  --form-input-border-color: rgb(0, 0, 0);
 }
 
 html {

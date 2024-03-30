@@ -33,17 +33,17 @@ button {
 
 header button:nth-of-type(1) {
   background: transparent;
-  color: var(--text-color-white);
+  color: var(--secondary-color);
 }
 
 header button:nth-of-type(2) {
 	background: var(--secondary-color);
-	color: var(--body-text-primary);
+	color: var(--primary-color);
 }
 
 main > section > button {
 	background-color: var(--accent-color);
-	color: var(--body-text-primary);
+	color: var(--primary-color);
 }
 
 /* these are form about us */
@@ -54,13 +54,13 @@ main > section > button {
 
 #about button {
   background-color: var(--accent-color);
-  color: var(--body-text-black); 
+  color: var(--primary-color); 
 }
 
 
 /* contact */
 .contact {
-	color: var(--body-text-primary);
+	color: var(--primary-color);
 	background-color: var(--secondary-color);
 	border-radius: 8px;
 	padding: 36px;
@@ -81,7 +81,7 @@ label {
 input[type="text"], input[type="email"], textarea {
 	background-color: transparent;
 	border: none;
-	border-bottom: 1px solid var(--primay-color);
+	border-bottom: 1px solid var(--primary-color);
 	margin-bottom: 8px;
 	width: 100%;
 	box-sizing: border-box;
@@ -89,16 +89,16 @@ input[type="text"], input[type="email"], textarea {
 
 input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
 	outline: none;
-	border-bottom: 2px solid var(--form-input-border-color);
+	border-bottom: 2px solid var(--primary-color);
 }
 
 textarea {
-	border-bottom: 1px solid var(--form-input-border-color);
+	border-bottom: 1px solid var(--primary-color);
 	border-radius: 2px;
 }
 
 .checkbox-label {
-	color: var(--body-text-secondary);
+	color: var;
 	font-size: 14px;
 	font-weight: 400;
 }
