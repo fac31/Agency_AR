@@ -1,3 +1,6 @@
+@import url("../css/inputs.css");
+@import url("../css/cards.css");
+
 :root {
   --primary-color: rgb(26, 26, 26);
   --secondary-color:rgb(255, 255, 255);
@@ -166,5 +169,3 @@ footer {
   text-align: center;
 }
 
-@import url("../css/inputs.css");
-@import url("../css/cards.css");

@@ -81,7 +81,7 @@ label {
 input[type="text"], input[type="email"], textarea {
 	background-color: transparent;
 	border: none;
-	border-bottom: 1px solid var(--form-input-border-color);
+	border-bottom: 1px solid var(--primay-color);
 	margin-bottom: 8px;
 	width: 100%;
 	box-sizing: border-box;
