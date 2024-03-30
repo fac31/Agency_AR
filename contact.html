@@ -33,16 +33,25 @@
         </p>
 
         <form>
-          <div class="radio-group">
-            <input type="radio" id="mr" value="mr" />
-            <label for="mr">Mr.</label>
+          <fieldset>
+            <legend>Title:</legend>
+            <div class="radio-group">
+              <input name="title" type="radio" id="mr" value="mr" />
+              <label for="mr">Mr</label>
 
-            <input type="radio" id="mrs" value="mrs" />
-            <label for="mrs">Mrs.</label>
+              <input name="title" type="radio" id="mrs" value="mrs" />
+              <label for="mrs">Mrs</label>
 
-            <input type="radio" id="other" value="other" />
-            <label for="other">Other</label>
-          </div>
+              <input name="title" type="radio" id="ms" value="ms" />
+              <label for="ms">Ms</label>
+
+              <input name="title" type="radio" id="mx" value="mx" />
+              <label for="mx">Mx</label>
+
+              <input name="title" type="radio" id="other" value="other" />
+              <label for="other">Prefer not say</label>
+            </div>
+          </fieldset>
 
           <div class="form-group">
             <label for="first-name"
@@ -68,12 +77,12 @@
             <label for="phone-number"
               >Phone number<span class="required-asterisk">*</span></label
             >
-            <input type="text" id="phone-number" required />
+            <input type="number" id="phone-number" required />
 
             <label for="question"
               >Your question<span class="required-asterisk">*</span></label
             >
-            <textarea id="question" id="questionr" required></textarea>
+            <textarea id="question" required></textarea>
           </div>
 
           <input type="checkbox" id="checkbox" />
@@ -84,7 +93,8 @@
           >
         </form>
 
-        <button class="contatined-button-accent">
+
+        <button type="submit" class="contatined-button-accent">
           <span class="material-symbols-rounded"> arrow_right_alt </span>Submit
         </button>
       </section>
