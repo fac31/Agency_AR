@@ -3,12 +3,12 @@
 
 :root {
   --primary-color: rgb(26, 26, 26);
-  --secondary-color:white;
-  --text-color-white:white;
+  --secondary-color:rgb(255, 255, 255);
+  --text-color-white:rgb(255, 255, 255);
   --accent-color:rgba(117, 251, 185, 1);
   --body-text-primary:rgb(26, 26, 26);
 	--body-text-scondary: rgb(96, 96, 96);
-  --form-input-border-color: black;
+  --form-input-border-color: rgb(0, 0, 0);
 }
 
 html {
@@ -81,7 +81,31 @@ main{
 	flex: 1;
 }
 
-.background-home {
+main > section > * + * {
+  margin-top: 24px;
+}
+
+h1 {
+  line-height: 1.4;
+  font-size: 32px;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover, a:active, a:focus {
+	text-decoration: underline;
+	color: inherit;
+}
+
+.background-main {
 	background: var(--primary-color);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -97,29 +121,13 @@ main{
 	height: 100svh;
 }
 
-main > section > * + * {
-  margin-top: 24px;
-}
 
-main > section > button {
-	background-color: var(--accent-color);
-	color: black;
-}
-
-h1 {
-  line-height: 1.4;
-  font-size: 32px;
-}
-
+/* Contact */
 .contact-header {
 	line-height: 0;
 }
 
-p {
-  line-height: 1.6;
-  font-size: 16px;
 
-}
 /* abouts us section styles */
 #about {
   display: flex;
@@ -140,25 +148,9 @@ img {
   max-width: 100%;
   height: auto;
 }
-.text-container button {
-  margin-top: 20px;
-}
-#about button {
-  background-color: var(--accent-color);
-  color: var(--body-text-black); 
-}
 
 .body-secondary {
 	color: var(--body-text-scondary);
-}
-
-.contact {
-	color: var(--body-text-primary);
-	background-color: var(--secondary-color);
-	border-radius: 8px;
-	padding: 36px;
-	max-width: 400px;
-	margin-left: 20%;
 }
 
 footer {
@@ -177,12 +169,3 @@ footer {
   text-align: center;
 }
 
-a {
-	text-decoration: none;
-	color: inherit;;
-}
-
-a:hover, a:active, a:focus {
-	text-decoration: underline;
-	color: inherit;
-}

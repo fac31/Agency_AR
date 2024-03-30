@@ -41,6 +41,30 @@ header button:nth-of-type(2) {
 	color: black;
 }
 
+main > section > button {
+	background-color: var(--accent-color);
+	color: var(--body-text-primary);
+}
+
+/* these are form about us */
+/*I do not know why it is not picking up the text colour*/
+.text-container button {
+  margin-top: 20px;
+}
+
+#about button {
+  background-color: var(--accent-color);
+  color: var(--body-text-black); 
+}
+
+.contact {
+	color: var(--body-text-primary);
+	background-color: var(--secondary-color);
+	border-radius: 8px;
+	padding: 36px;
+	max-width: 400px;
+	margin-left: 20%;
+}
 
 .contact .form-group {
 	display: flex;
@@ -91,3 +115,5 @@ form * + * {
 	flex-direction: column;
 	align-items:left;
 }
+
+
