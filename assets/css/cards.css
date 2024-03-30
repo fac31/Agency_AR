@@ -4,7 +4,7 @@
 	border-radius: 8px;
   padding: 16px;
   text-align: left;
-	color: black;
+	color: var(--primary-color);
 	max-width: 1000px;
 }
 
@@ -21,10 +21,21 @@
   margin: 16px;
   text-align: left;
   max-width: 200px;
-	color: black;
+	color: var(--primary-color);
 }
 
-.card-small img {
+.card-large {
+	color: var(--primary-color);
+	background-color: var(--secondary-color);
+	border-radius: 8px;
+	padding: 36px;
+	max-width: 400px;
+	margin-left: 20%;
+}
+
+
+/* how images display in cards */
+.card-small img{
   width: 200px;
   height: 250px;
 	object-fit: contain;
@@ -32,17 +43,9 @@
   margin-bottom: 16px;
 }
 
-.image-card {
+.image-card-large {
   border-radius: 8px;
   text-align: center;
 	max-width: 400px;
-	color: black;
-}
-
-.image-card-gallery {
-	border-radius: 8px;
-  width: 400px;
-  height: 400px;
-	padding: 24px;
-	object-fit: contain;
+	color: var(--primary-color);
 }
