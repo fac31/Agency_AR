@@ -23,26 +23,6 @@ body {
 	margin: 48px;
 }
 
-main{
-	flex: 1;
-}
-
-.background-main {
-	background: var(--primary-color);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-	height: 100svh;
-}
-
-.background-content {
-	background-image: url("../images/team.webp");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-	height: 100svh;
-}
-
 header nav {
   display: flex;
   align-items: center;
@@ -95,6 +75,26 @@ header nav div button {
 
 .nav-links l:not(:last-child) {
   margin-right: 24px;
+}
+
+main{
+	flex: 1;
+}
+
+.background-home {
+	background: var(--primary-color);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 100svh;
+}
+
+.background-content {
+	background-image: url("../images/team.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 100svh;
 }
 
 main > section > * + * {
