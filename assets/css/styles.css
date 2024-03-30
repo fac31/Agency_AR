@@ -28,13 +28,18 @@ body {
 	margin: 48px;
 }
 
-
-nav ul {
+.nav-links {
+  flex: 1;
   display: flex;
-  list-style: none;
+  justify-content: center;
+}
+
+.nav-menu {
+  display: flex;
   justify-content: center;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
+  list-style-type: none;
 }
 
 nav ul li {
@@ -55,19 +60,6 @@ header nav div button {
 
 
 
-.nav-links {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
-
-.nav-links ul {
-  display: flex;
-  justify-content: center;
-  padding: 0;
-  margin: 0 auto;
-  list-style-type: none;
-}
 
 .nav-links l:not(:last-child) {
   margin-right: 24px;
