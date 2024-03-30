@@ -52,12 +52,6 @@ a {
   font-weight: bold;
 }
 
-header nav div button {
-	margin-left: 8px;
-	display: inline;
-}
-
-
 main{
 	flex: 1;
 }

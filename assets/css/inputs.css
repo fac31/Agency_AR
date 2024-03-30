@@ -3,6 +3,11 @@
   margin-right: 24px;
 }
 
+header nav div button {
+	margin-left: 8px;
+	display: inline;
+}
+
 button {
   border: none;
   padding: 12px 20px;
