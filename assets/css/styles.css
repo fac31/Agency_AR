@@ -6,6 +6,7 @@
   --secondary-color:rgb(255, 255, 255);
   --accent-color:rgba(117, 251, 185, 1);
 	--body-text-scondary: rgb(96, 96, 96);
+	--font-stack: "Lato", sans-serif;
 }
 
 html {
@@ -16,7 +17,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	font-family: Lato, sans-serif;
-	color: var(--text-color-white);
+	color: var(--secondary-color);
 	margin: 48px;
 }
 
@@ -41,7 +42,7 @@ nav ul li {
 
 nav a {
   text-decoration: none;
-  color: var(--text-color-white);
+  color: var(--secondary-color);
   font-weight: bold;
 }
 
