@@ -42,11 +42,11 @@ body {
   list-style-type: none;
 }
 
-nav ul li {
+.nav-page-link {
   margin-right: 24px;
 }
 
-nav a {
+a {
   text-decoration: none;
   color: var(--secondary-color);
   font-weight: bold;
