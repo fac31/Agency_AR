@@ -13,20 +13,21 @@ html {
 	height: 100%;
 }
 
-body {
-	display: flex;
-	flex-direction: column;
-	font-family: Lato, sans-serif;
-	color: var(--secondary-color);
-	margin: 48px;
-}
-
-header nav {
+.nav-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 80px;
 }
+
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: var(--font-stack);
+	color: var(--secondary-color);
+	margin: 48px;
+}
+
 
 nav ul {
   display: flex;
@@ -51,11 +52,8 @@ header nav div button {
 	display: inline;
 }
 
-.nav-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
+
 
 .nav-links {
   flex: 1;
