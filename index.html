@@ -9,25 +9,25 @@
     />
 
     <title>AR Agency</title>
-    <link rel="stylesheet" href="./asset/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body class="background-main">
     <header>
       <nav class="nav-container navbar" aria-label="Main Menu">
         <div class="nav-links">
-          <ul>
-            <li class="nav-item"><a class="nav-link" href="find.html">Find</a></li>
-            <li class="nav-item"><a class="nav-link" href="#become">Become</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-            <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+          <ul class="nav-menu">
+            <li class="nav-page-link nav-item"><a href="find.html">Find</a></li>
+            <li class="nav-page-link nav-item"><a href="#become">Become</a></li>
+            <li class="nav-page-link nav-item"><a href="contact.html">Contact</a></li>
+            <li class="nav-page-link nav-item"><a href="aboutus.html">About</a></li>
+            <li class="nav-page-link nav-item"><a href="#blog">Blog</a></li>
           </ul>
         </div>
         <div class="nav-buttons">
-          <button>
+          <button class="text-button-icon-right">
             <span class="material-symbols-rounded"> person </span>Log in
           </button>
-          <button>Register</button>
+          <button class="contatined-button-white">Register</button>
         </div>
       </nav>
     </header>
@@ -53,8 +53,8 @@
 
         <div class="card-horizontal">
           <img
-            src="asset/images/monster3.webp"
-            class="image-card"
+            src="assets/images/monster3.webp"
+            class="image-card-large"
             alt="monster in target"
           />
           <p>
@@ -75,7 +75,10 @@
       </section>
 
       <section>
-        <button>
+        <button
+          onclick="location.href='contact.html'"
+          class="contatined-button-accent"
+        >
           <span class="material-symbols-rounded"> arrow_right_alt </span>Work
           with AR
         </button>
