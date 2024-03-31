@@ -7,7 +7,7 @@ function displayHunters() {
   for (let i = 0; i < hunters.length; i++) {
     // console.log(hunters[i]);
   }
-  const galleryContainer = document.createElement("section");
+  const galleryContainer = document.getElementById("gallery-section");
   galleryContainer.innerHTML = `
       <div class="gallery">
         ${hunters
@@ -29,7 +29,7 @@ function displayHunters() {
       
       `;
 
-  document.body.appendChild(galleryContainer);
+  document.body.main.appendChild(galleryContainer);
 }
 
 displayHunters();
