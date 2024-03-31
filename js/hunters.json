@@ -1,0 +1,41 @@
+{
+    "hunters": [
+      {
+        "name": "Emerys",
+        "role": "Sorcerer",
+        "image": "./assets/images/hunter1.jpg",
+        "description": "Emerys honed his talents from a young age, delving into forbidden tomes and mastering spellcraft that few could even comprehend."
+      },
+      {
+        "name": "Arianwen",
+        "role": "Shapeshifter",
+        "image": "./assets/images/hunter2.png",
+        "description": "Nature's ultimate weapon - a lethal fusion of primal magic and brutal martial prowess. Don't let her ethereal beauty deceive you. This shapeshifter was forged on the unforgiving anvil of the wildlands."
+      },
+      {
+        "name": "Damian",
+        "role": "Exorcist",
+        "image": "./assets/images/hunter3.png",
+        "description": "Damian is a battle-hardened exorcist whose unwavering faith and formidable talents have made him one of the most renowned and feared adversaries to the demonic forces that plague the world."
+      },
+      {
+        "name": "Zachariah",
+        "role": "Sorcerer - Fae",
+        "image": "./assets/images/hunter4.png",
+        "description": "Zacharia's lineage can be traced back to the primordial days when the fair folk first danced amid the wild, verdant lands. This fae heritage courses through his veins, granting him preternatural gifts"
+      },
+      {
+        "name": "Lyra",
+        "role": "Warewolf",
+        "image": "./assets/images/hunter5.png",
+        "description": "An alpha predator whose preternatural speed, strength and savagery are surely the stuff of nightmare. She hates vampires."
+      },
+      {
+        "name": "Jinx",
+        "role": "Marskman",
+        "image": "./assets/images/hunter6.png",
+        "description": "She just likes it here."
+      }
+    ]
+  }
+  
