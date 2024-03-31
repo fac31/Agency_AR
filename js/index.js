@@ -4,9 +4,7 @@ const hunters = data.hunters;
 
 // console.log(hunters[0])
 function displayHunters() {
-  for (let i = 0; i < hunters.length; i++) {
-    // console.log(hunters[i]);
-  }
+
   const galleryContainer = document.getElementById("gallery-section");
   galleryContainer.innerHTML = `
       <div class="gallery">
