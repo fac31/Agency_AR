@@ -1,0 +1,20 @@
+/* Extra Small to Small Devices (Phones to Tablets) */
+@media only screen and (max-width: 768px) {
+  /* CSS rules for extra small to small devices */
+  .image-card-large {
+    border-radius: 8px;
+    text-align: center;
+    max-width: 400px;
+    color: var(--primary-color);
+  }
+}
+
+/* Medium Devices (Laptops and Desktops) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  /* CSS rules for medium devices */
+}
+
+/* Large to Extra Large Devices (Large Desktops and High-resolution Displays) */
+@media only screen and (min-width: 993px) {
+  /* CSS rules for large to extra large devices */
+}
