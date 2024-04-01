@@ -4,7 +4,6 @@ const hunters = data.hunters;
 
 // console.log(hunters[0])
 function displayHunters() {
-
   const galleryContainer = document.getElementById("gallery-section");
   galleryContainer.innerHTML = `
       <div class="gallery">
@@ -21,14 +20,10 @@ function displayHunters() {
           )
           .join("")}
       </div>
-      <button>
-        <span class="material-symbols-rounded"> arrow_right_alt </span>Work with AR
-      </button>
-      
+
       `;
 
   document.body.main.appendChild(galleryContainer);
 }
 
 displayHunters();
-
