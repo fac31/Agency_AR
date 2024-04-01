@@ -1,5 +1,7 @@
 @import url("../css/inputs.css");
 @import url("../css/cards.css");
+@import url("../css/responsive.css");
+
 
 :root {
   --primary-color: rgb(26, 26, 26);
@@ -11,6 +13,10 @@
 
 html {
 	height: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden; 
+  
+  
 }
 
 .nav-container {
@@ -26,6 +32,9 @@ body {
 	font-family: var(--font-stack);
 	color: var(--secondary-color);
 	margin: 48px;
+  
+  
+
 }
 
 .nav-links {
