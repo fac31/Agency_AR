@@ -1,12 +1,35 @@
 /* Extra Small to Small Devices (Phones to Tablets) */
 @media only screen and (max-width: 768px) {
   /* CSS rules for extra small to small devices */
-  .image-card-large {
-    border-radius: 8px;
-    text-align: center;
-    max-width: 400px;
-    color: var(--primary-color);
+.long-form-content {
+	margin: 0px;
+}
+
+  .card-horizontal {
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  text-align: left;
+  max-width: 330px;
+  color: var(--primary-color);
   }
+
+	.image-card-large {
+		width: 200px;
+		height: 250px;
+		object-fit: contain;
+		border-radius: 4px;
+		margin-bottom: 16px;
+	}
+
+	.card-horizontal .image-card-large {
+		width: 200px;
+		height: 250px;
+		object-fit: contain;
+		border-radius: 4px;
+		margin-bottom: 16px;
+	}
 }
 
 /* Medium Devices (Laptops and Desktops) */
