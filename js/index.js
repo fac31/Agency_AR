@@ -1,9 +1,5 @@
-import data from "./hunters.json" assert { type: "json" };
-const hunters = data.hunters;
-// console.log(hunters);
 
-// console.log(hunters[0])
-function displayHunters() {
+function displayHunters(hunters) {
   const galleryContainer = document.getElementById("gallery-section");
   galleryContainer.innerHTML = `
       <div class="gallery">
@@ -20,10 +16,24 @@ function displayHunters() {
           )
           .join("")}
       </div>
-
-      `;
-
+      <button>
+        <span class="material-symbols-rounded"> arrow_right_alt </span>Work with AR
+      </button>`;
   document.body.main.appendChild(galleryContainer);
 }
 
-displayHunters();
+async function fetchDataAndDisplay() {
+  try {
+    const response = await fetch("./js/hunters.json");
+    if (!response.ok) {
+      throw new Error("json didnt load correctly");
+    }
+    const data = await response.json();
+    const hunters = data.hunters;
+    displayHunters(hunters);
+  } catch (error) {
+    console.error("Error fetching data:", error);
+  }
+}
+
+fetchDataAndDisplay();
