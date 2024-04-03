@@ -15,10 +15,7 @@ function displayHunters(hunters) {
         `
           )
           .join("")}
-      </div>
-      <button>
-        <span class="material-symbols-rounded"> arrow_right_alt </span>Work with AR
-      </button>`;
+      </div>`;
   document.body.main.appendChild(galleryContainer);
 }
 
