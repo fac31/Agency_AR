@@ -1,3 +1,4 @@
+
 function displayHunters(hunters) {
   const galleryContainer = document.getElementById("gallery-section");
   galleryContainer.innerHTML = `
@@ -36,4 +37,3 @@ async function fetchDataAndDisplay() {
 }
 
 fetchDataAndDisplay();
-

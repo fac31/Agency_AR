@@ -1,17 +1,17 @@
 .card-horizontal {
-	display: flex;
-	background-color: var(--secondary-color);
-	border-radius: 8px;
+  display: flex;
+  background-color: var(--secondary-color);
+  border-radius: 8px;
   padding: 16px;
   text-align: left;
-	color: var(--primary-color);
-	max-width: 1000px;
+  color: var(--primary-color);
+  max-width: 1000px;
 }
 
 .gallery {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .card-small {
@@ -21,24 +21,23 @@
   margin: 16px;
   text-align: left;
   max-width: 200px;
-	color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .card-large {
-	color: var(--primary-color);
-	background-color: var(--secondary-color);
-	border-radius: 8px;
-	padding: 36px;
-	max-width: 400px;
-	margin-left: 20%;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  padding: 36px;
+  max-width: 400px;
+  margin-left: 20%;
 }
 
-
 /* how images display in cards */
-.card-small img{
+.card-small img {
   width: 200px;
   height: 250px;
-	object-fit: contain;
+  object-fit: contain;
   border-radius: 4px;
   margin-bottom: 16px;
 }
@@ -46,6 +45,6 @@
 .image-card-large {
   border-radius: 8px;
   text-align: center;
-	max-width: 400px;
-	color: var(--primary-color);
+  max-width: 400px;
+  color: var(--primary-color);
 }
