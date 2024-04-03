@@ -1,64 +1,36 @@
 @import url("../css/inputs.css");
 @import url("../css/cards.css");
 @import url("../css/responsive.css");
-
+@import url("../css/nav.css");
 
 :root {
   --primary-color: rgb(26, 26, 26);
-  --secondary-color:rgb(255, 255, 255);
-  --accent-color:rgba(117, 251, 185, 1);
-	--body-text-scondary: rgb(96, 96, 96);
-	--font-stack: "Lato", sans-serif;
+  --secondary-color: rgb(255, 255, 255);
+  --accent-color: rgba(117, 251, 185, 1);
+  --body-text-scondary: rgb(96, 96, 96);
+  --font-stack: "Lato", sans-serif;
 }
-
-html {
-	height: 100%;
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  overflow-x: hidden; 
-  
-  
 }
-
-.nav-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 80px;
+html {
+  height: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
-
 body {
-	display: flex;
-	flex-direction: column;
-	font-family: var(--font-stack);
-	color: var(--secondary-color);
-	margin: 48px;
-  
-  
-
-}
-
-.nav-links {
-  flex: 1;
   display: flex;
-  justify-content: center;
-}
-
-.nav-menu {
-  display: flex;
-  justify-content: center;
-  padding: 0;
-  margin: 0 auto;
-  list-style-type: none;
-}
-
-.nav-page-link {
-	font-weight: 600;
-  margin-right: 32px;
+  flex-direction: column;
+  font-family: var(--font-stack);
+  color: var(--secondary-color);
+  margin: 48px;
 }
 
 /* this pushes the footer to the bottom, don't touch*/
-main{
-	flex: 1;
+main {
+  flex: 1;
 }
 
 main > section > * + * {
@@ -76,38 +48,38 @@ p {
 }
 
 a {
-	text-decoration: none;
-	color: var(--secondary-color);
-	color: inherit;
+  text-decoration: none;
+  color: var(--secondary-color);
+  color: inherit;
 }
 
-a:hover, a:active, a:focus {
-	text-decoration: underline;
-	color: inherit;
+a:hover,
+a:active,
+a:focus {
+  text-decoration: underline;
+  color: inherit;
 }
 
 .background-main {
-	background: var(--primary-color);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-	height: 100svh;
+  background: var(--primary-color);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100svh;
 }
 
 .background-content {
-	background-image: url("../images/team.webp");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-	height: 100svh;
+  background-image: url("../images/team.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100svh;
 }
-
 
 /* Contact */
 .contact-header {
-	line-height: 0;
+  line-height: 0;
 }
-
 
 /* abouts us section styles */
 #about {
@@ -115,7 +87,7 @@ a:hover, a:active, a:focus {
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 80px;
+margin-top: 150px;  /* margin-bottom: 80px; */
 }
 .img-container {
   display: flex;
@@ -124,29 +96,28 @@ a:hover, a:active, a:focus {
 img {
   /* width: 400px;
   margin-inline: auto;*/
-  margin-right: 46px; 
+  margin-right: 46px;
   display: block;
   max-width: 100%;
   height: auto;
 }
 
 .body-secondary {
-	color: var(--body-text-scondary);
+  color: var(--body-text-scondary);
 }
 
 footer {
-	background-color: var(--primary-color);
-	position: 0;
-	left: 0;
-	bottom: 0;
+  background-color: var(--primary-color);
+  position: 0;
+  left: 0;
+  bottom: 0;
   height: 100px;
   width: 100vw;
-	position: relative;
-	left: 50%;
+  position: relative;
+  left: 50%;
   right: 50%;
   transform: translateX(-50%);
-	padding: 24px;
+  padding: 24px;
   color: var(--text-color-white);
   text-align: center;
 }
-

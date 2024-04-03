@@ -1,20 +1,95 @@
-/* Extra Small to Small Devices (Phones to Tablets) */
-@media only screen and (max-width: 768px) {
-  /* CSS rules for extra small to small devices */
-  .image-card-large {
-    border-radius: 8px;
-    text-align: center;
-    max-width: 400px;
-    color: var(--primary-color);
-  }
-}
+/* nav for larger screen */
+@media only screen and (min-width: 768px) {
+    /* .nav-toggle-label {
+        display: none;
+    } */
 
-/* Medium Devices (Laptops and Desktops) */
-@media only screen and (min-width: 769px) and (max-width: 992px) {
-  /* CSS rules for medium devices */
-}
+    header {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr auto minmax(500px, 2fr) 1fr;
+    }
 
-/* Large to Extra Large Devices (Large Desktops and High-resolution Displays) */
-@media only screen and (min-width: 993px) {
-  /* CSS rules for large to extra large devices */
-}
+    nav {
+        all: unset;
+        grid-column: 3/4;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 50px;
+        /* text-align: left; */
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+
+
+    }
+
+    nav li {
+        margin-left: 3em;
+        margin-bottom: 0;
+    }
+
+    nav a {
+        opacity: 1;
+        position: relative;
+    }
+
+    nav a::before {
+        content: "";
+        display: block;
+        height: 5px;
+        position: absolute;
+        top: -0.75em;
+        left: 0;
+        right: 0;
+        transform: scale(0, 1);
+        transition: 150ms ease-in-out;
+    }
+
+    @media only screen and (max-width: 768px) {
+
+        /* card on landing */
+        .long-form-content {
+            margin: 0px;
+        }
+
+        .card-horizontal {
+            background-color: var(--secondary-color);
+            border-radius: 8px;
+            padding: 16px;
+            margin: 16px;
+            text-align: left;
+            max-width: 330px;
+            color: var(--primary-color);
+            /* display: block; */
+        }
+
+        .image-card-large {
+            width: 200px;
+            height: 250px;
+            object-fit: contain;
+            border-radius: 4px;
+            margin-bottom: 16px;
+        }
+
+        .card-horizontal .image-card-large {
+            width: 200px;
+            height: 250px;
+            object-fit: contain;
+            border-radius: 4px;
+            margin-bottom: 16px;
+        }
+    }
+
+    /* Medium Devices (Laptops and Desktops) */
+    @media only screen and (min-width: 769px) and (max-width: 992px) {
+        /* CSS rules for medium devices */
+    }
+
+    /* Large to Extra Large Devices (Large Desktops and High-resolution Displays) */
+    @media only screen and (min-width: 993px) {
+        /* CSS rules for large to extra large devices */
+    }
