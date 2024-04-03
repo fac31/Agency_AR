@@ -49,7 +49,7 @@
         transition: 150ms ease-in-out;
     }
 
-    @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
         /* card on landing */
         .long-form-content {
